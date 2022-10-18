@@ -76,7 +76,7 @@ int main()
 
 }
 ```
-# week07-2
+# 07-2
 ```cpp
 #include <stdio.h>
 int main()
@@ -91,7 +91,7 @@ int main()
     printf("最大公因數是:%lld\n",ans);
 }
 ```
-# week07-3
+# 07-3
 ```cpp
 #include <stdio.h>
 int main()
@@ -108,7 +108,7 @@ int main()
     printf("答案是: %lld\n",b);
 }
 ```
-# week07-4
+# 07-4
 ```cpp
 #include <stdio.h>
 int main()
