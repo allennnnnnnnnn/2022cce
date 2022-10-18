@@ -62,7 +62,7 @@ int main()
 }
 ```
 # week07
-# 07-1 
+# 07-1 long long int
 ```cpp
 #include <stdio.h>
 int main()
@@ -76,7 +76,7 @@ int main()
 
 }
 ```
-# 07-2
+# 07-2 long long int (最大公因數)
 ```cpp
 #include <stdio.h>
 int main()
@@ -91,7 +91,7 @@ int main()
     printf("最大公因數是:%lld\n",ans);
 }
 ```
-# 07-3
+# 07-3 long long int(輾轉相除法)
 ```cpp
 #include <stdio.h>
 int main()
@@ -108,7 +108,7 @@ int main()
     printf("答案是: %lld\n",b);
 }
 ```
-# 07-4
+# 07-4剝皮法
 ```cpp
 #include <stdio.h>
 int main()
