@@ -138,7 +138,7 @@ int main()
 }
 ```
 # week08
-# 08-1列出全部質數
+# 08-1 列出全部質數
 ```cpp
 #include <stdio.h>
 int main()
@@ -153,7 +153,7 @@ int n;
     else printf("%d不好,不是質數",n);
 }
 ```
-# 08-2判斷n是不是質數
+# 08-2 判斷n是不是質數
 ```cpp
 #include <stdio.h>
 int main()
@@ -170,7 +170,7 @@ int main()
     }
 }
 ```
-# 08-3迴圈(sum)
+# 08-3 迴圈(sum)
 ```cpp
 #include <stdio.h>
 int main()
@@ -186,7 +186,7 @@ int main()
     printf("總和是:%d", sum);
 }
 ```
-# 08-4for直角三角形
+# 08-4 for直角三角形
 ```cpp
 #include <stdio.h>
 int main()
