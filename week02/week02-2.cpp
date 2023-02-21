@@ -1,8 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
-
 {
-    printf("12345\n");
-    printf("這裡有字,有插入值\n");
-    printf("這裡有字%d有插入值\n",12345);
+	long long int a,b;
+
+	while (scanf("%lld%lld", &a,&b)==2){
+		int ans= a-b;
+		if(ans<0) ans=b-a;
+		printf("%d\n",ans);
+	}
 }

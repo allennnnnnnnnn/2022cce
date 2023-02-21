@@ -1,10 +1,12 @@
-#include <stdio.h>
+#include <iostream>
 int main()
-
 {
-    int a;
-    a=2;
-    printf("現在的a是%d\n",a);
-    a=99;
-    printf("現在的a是%d\n",a);
+	long long int a,b;
+
+	while (std::cin>>a>>b){
+		long long int ans= a-b;
+		if(ans<0) ans=b-a;
+		std::cout<<ans<<std::endl;
+		//printf("%d\n",ans);
+	}
 }
